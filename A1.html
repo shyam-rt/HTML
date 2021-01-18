@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   --><title>Survey</title>
+    <link rel="stylesheet" href="as.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container1">
+            <h2>Survey Form</h2>
+            <p><i>Thank you for taking the time to help us improve the platform</i></p>
+        </div>
+        <div class="container2">
+            <form>
+                <label for="name" >Name</label><br>
+                <input type="text" id="name" placeholder="Enter Your Name"><br><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" placeholder="Enter Your Email"><br><br>
+                <label for="age">Age(optional)</label><br>
+                <input type="number" id="age" placeholder="Age"><br><br>
+                <label for="role">Which option best describes your current role?</label><br>    
+                <select id="role">
+                    <option value="current_role">Select current role</option>
+                    <option value="student">Student</option>
+                    <option value="employed">Employed</option>
+                    <option value="unemployed">Unemployed</option> 
+                    <option value="others">Others</option>
+                </select><br>
+                <br><label for="recommend">Would you recommend our product to your friend?</label><br><br>
+                <input type="radio" value="definitely" id="def">
+                <label for="def">Definitely</label><br>
+                <input type="radio" value="maybe" id="may">
+                <label for="may">Maybe</label><br>
+                <input type="radio" value="notsure" id="not"> 
+                <label for="not">Not Sure</label><br>
+                <br><label for="feature">What is your favourite feature of our product?</label>
+                <select id="feature">
+                    <option value="option">Select an option</option>
+                    <option value="option1">Option1</option>
+                    <option value="option2">Option2</option>
+                    <option value="option3">Option3</option>
+                </select><br>
+                <br><label for="improve">What would you like to see improved?(check all that applied)</label><br><br>
+                <input type="checkbox" value="front" id="front-end">
+                <label for="front-end">Front-end Projects</label><br>
+                <input type="checkbox" value="back" id="back-end">
+                <label for="back-end">Back-end Projects</label><br>
+                <input type="checkbox" value="data" id="visual">
+                <label for="visual">Data Visualization</label><br>
+                <input type="checkbox" value="chal" id="challenges">
+                <label for="challenges">Challenges</label><br>
+                <input type="checkbox" value="open" id="source">
+                <label for="source">Open Source Community</label><br>
+                <input type="checkbox" value="help" id="gitter">
+                <label for="gitter">Gitter help rooms</label><br>
+                <input type="checkbox" value="vid" id="videos">
+                <label for="videos">Videos</label><br>
+                <input type="checkbox" value="city" id="meet">
+                <label for="meet">City Meetups</label><br>
+                <input type="checkbox" value="wik" id="wiki">
+                <label for="wiki">Wiki</label><br>
+                <input type="checkbox" value="foru" id="forum">
+                <label for="forum">Forum</label><br>
+                <input type="checkbox" value="add_cour" id="courses">
+                <label for="courses">Additional Courses</label><br>
+                <br>
+                <label for="comments">Any comments or suggestions?</label><br><br>
+                <textarea rows="8" cols="40" name="comment" style="width: 100%" placeholder="Enter Your Comment here..."></textarea><br><br>
+                <input type="button" class="button" id="submit" value="Submit">
+            </form>
+           
+        </div>
+    </div>
+</body>
+</html>
